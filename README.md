@@ -13,8 +13,6 @@
 If you are using Eclipse, set as below
   ![image](https://github.com/tomoima525/tweet-analyze/blob/master/art/libraries.png)
 * Create your AccessToken,AccessTokenSecret,ConsumerKey, ConsumerSecret from [Twitter Api Console](https://apps.twitter.com/).  You need Twitter account to get them.  
-![image](https://github.com/tomoima525/tweet-analyze/blob/master/art/manage_app_01.png)  
-
 * Set each keys to configuration at `CollectTweets.java`
 ```
 Configuration configuration = new ConfigurationBuilder()
